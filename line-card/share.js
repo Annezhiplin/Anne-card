@@ -12,48 +12,72 @@ const flexCard = {
           "url": "https://annezhiplin.github.io/Anne-card/line-card/anne.jpg",
           "size": "full",
           "aspectRatio": "1:1",
-          "aspectMode": "cover"
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "林芷平 Anne",
+            "uri": "https://liff.line.me/2012619906-dSxl9LHV"
+          }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
-          "backgroundColor": "#F4E8DB",
+          "paddingAll": "18px",
+          "backgroundColor": "#F6ECE3",
           "spacing": "sm",
           "contents": [
             {
               "type": "text",
-              "text": "個人形象美學顧問",
-              "color": "#785139",
-              "size": "xs"
+              "text": "PERSONAL CARD",
+              "size": "xxs",
+              "color": "#77563A",
+              "wrap": true,
+              "weight": "bold"
             },
             {
               "type": "text",
               "text": "林芷平 Anne",
-              "color": "#2F211A",
-              "weight": "bold",
               "size": "xl",
-              "wrap": true
+              "color": "#36251B",
+              "wrap": true,
+              "weight": "bold"
             },
             {
               "type": "text",
-              "text": "Lé Tailor 西裝訂製\nRene-Cell 肌膚管理",
-              "color": "#513C32",
+              "text": "個人形象美學顧問",
               "size": "sm",
-              "wrap": true
+              "color": "#36251B",
+              "wrap": true,
+              "weight": "bold"
+            },
+            {
+              "type": "separator",
+              "margin": "md",
+              "color": "#DDC9B8"
+            },
+            {
+              "type": "text",
+              "text": "Lé Tailor 台灣區負責人・西裝設計師\nRene-Cell 卡麗斯・肌膚管理顧問",
+              "size": "sm",
+              "color": "#604A3C",
+              "wrap": true,
+              "margin": "md"
             }
           ]
         },
         "footer": {
           "type": "box",
           "layout": "vertical",
+          "paddingAll": "14px",
+          "paddingTop": "0px",
           "spacing": "sm",
-          "backgroundColor": "#F4E8DB",
+          "backgroundColor": "#F6ECE3",
           "contents": [
             {
               "type": "button",
               "style": "primary",
               "height": "sm",
-              "color": "#08783F",
+              "color": "#62452C",
               "action": {
                 "type": "uri",
                 "label": "加我 LINE 好友",
@@ -64,10 +88,10 @@ const flexCard = {
               "type": "button",
               "style": "primary",
               "height": "sm",
-              "color": "#63432E",
+              "color": "#85654D",
               "action": {
                 "type": "uri",
-                "label": "電子名片",
+                "label": "開啟電子名片",
                 "uri": "https://liff.line.me/2012619906-dSxl9LHV"
               }
             },
@@ -75,7 +99,7 @@ const flexCard = {
               "type": "button",
               "style": "primary",
               "height": "sm",
-              "color": "#63432E",
+              "color": "#85654D",
               "action": {
                 "type": "uri",
                 "label": "分享給好友",
@@ -93,51 +117,86 @@ const flexCard = {
           "url": "https://annezhiplin.github.io/Anne-card/line-card/tailor.jpg",
           "size": "full",
           "aspectRatio": "1:1",
-          "aspectMode": "cover"
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "西裝訂製服務",
+            "uri": "https://liff.line.me/2012619906-dSxl9LHV"
+          }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
-          "backgroundColor": "#F4E8DB",
+          "paddingAll": "18px",
+          "backgroundColor": "#F6ECE3",
           "spacing": "sm",
           "contents": [
             {
               "type": "text",
-              "text": "個人・企業・團隊",
-              "color": "#785139",
-              "size": "xs"
+              "text": "MY SERVICES",
+              "size": "xxs",
+              "color": "#77563A",
+              "wrap": true,
+              "weight": "bold"
             },
             {
               "type": "text",
-              "text": "Lé Tailor 西裝訂製",
-              "color": "#2F211A",
-              "weight": "bold",
+              "text": "西裝訂製服務",
               "size": "xl",
-              "wrap": true
+              "color": "#36251B",
+              "wrap": true,
+              "weight": "bold"
             },
             {
               "type": "text",
-              "text": "量身訂製｜西裝工作坊\n企業制服與形象管理講座",
-              "color": "#513C32",
+              "text": "個人 × 企業 × 團隊",
               "size": "sm",
-              "wrap": true
+              "color": "#36251B",
+              "wrap": true,
+              "weight": "bold"
+            },
+            {
+              "type": "separator",
+              "margin": "md",
+              "color": "#DDC9B8"
+            },
+            {
+              "type": "text",
+              "text": "量身訂製西裝／襯衫\n羊毛大衣／商務外套\n企業制服／團體訂製\n形象管理學講座",
+              "size": "sm",
+              "color": "#604A3C",
+              "wrap": true,
+              "margin": "md"
             }
           ]
         },
         "footer": {
           "type": "box",
           "layout": "vertical",
+          "paddingAll": "14px",
+          "paddingTop": "0px",
           "spacing": "sm",
-          "backgroundColor": "#F4E8DB",
+          "backgroundColor": "#F6ECE3",
           "contents": [
             {
               "type": "button",
               "style": "primary",
               "height": "sm",
-              "color": "#08783F",
+              "color": "#62452C",
               "action": {
                 "type": "uri",
                 "label": "預約諮詢／訂製",
+                "uri": "https://line.me/ti/p/OzcqMaJYTX"
+              }
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "height": "sm",
+              "color": "#85654D",
+              "action": {
+                "type": "uri",
+                "label": "詢問西裝工作坊",
                 "uri": "https://line.me/ti/p/OzcqMaJYTX"
               }
             }
@@ -152,51 +211,86 @@ const flexCard = {
           "url": "https://annezhiplin.github.io/Anne-card/line-card/skincare.jpg",
           "size": "full",
           "aspectRatio": "1:1",
-          "aspectMode": "cover"
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "肌膚管理服務",
+            "uri": "https://liff.line.me/2012619906-dSxl9LHV"
+          }
         },
         "body": {
           "type": "box",
           "layout": "vertical",
-          "backgroundColor": "#F4E8DB",
+          "paddingAll": "18px",
+          "backgroundColor": "#F6ECE3",
           "spacing": "sm",
           "contents": [
             {
               "type": "text",
-              "text": "保養諮詢・一對一體驗",
-              "color": "#785139",
-              "size": "xs"
+              "text": "SKINCARE SERVICE",
+              "size": "xxs",
+              "color": "#77563A",
+              "wrap": true,
+              "weight": "bold"
             },
             {
               "type": "text",
-              "text": "Rene-Cell 肌膚管理",
-              "color": "#2F211A",
-              "weight": "bold",
+              "text": "肌膚管理服務",
               "size": "xl",
-              "wrap": true
+              "color": "#36251B",
+              "wrap": true,
+              "weight": "bold"
             },
             {
               "type": "text",
-              "text": "依膚況安排保養，從日常護膚開始。",
-              "color": "#513C32",
+              "text": "修護 × 強化 × 緊緻",
               "size": "sm",
-              "wrap": true
+              "color": "#36251B",
+              "wrap": true,
+              "weight": "bold"
+            },
+            {
+              "type": "separator",
+              "margin": "md",
+              "color": "#DDC9B8"
+            },
+            {
+              "type": "text",
+              "text": "精準肌膚修護・敏感肌調理\n緊緻拉提・一對一膚質諮詢",
+              "size": "sm",
+              "color": "#604A3C",
+              "wrap": true,
+              "margin": "md"
             }
           ]
         },
         "footer": {
           "type": "box",
           "layout": "vertical",
+          "paddingAll": "14px",
+          "paddingTop": "0px",
           "spacing": "sm",
-          "backgroundColor": "#F4E8DB",
+          "backgroundColor": "#F6ECE3",
           "contents": [
             {
               "type": "button",
               "style": "primary",
               "height": "sm",
-              "color": "#08783F",
+              "color": "#62452C",
               "action": {
                 "type": "uri",
-                "label": "預約肌膚體驗",
+                "label": "預約體驗／諮詢",
+                "uri": "https://line.me/ti/p/OzcqMaJYTX"
+              }
+            },
+            {
+              "type": "button",
+              "style": "primary",
+              "height": "sm",
+              "color": "#85654D",
+              "action": {
+                "type": "uri",
+                "label": "了解服務與產品",
                 "uri": "https://line.me/ti/p/OzcqMaJYTX"
               }
             }
